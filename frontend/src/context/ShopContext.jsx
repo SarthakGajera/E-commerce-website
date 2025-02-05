@@ -1,6 +1,7 @@
 import { createContext } from "react";
 import { products } from "../assets/assets";
 
+// Note:- used to avoid props drilling 
 export const ShopContext = createContext();
 
 const ShopContextProvider = (props) => {
